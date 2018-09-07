@@ -1,0 +1,34 @@
+
+;; ----- smex-history -----
+(
+ elcord-mode
+ visual-line-mode
+ package-list-packages
+ undo
+ httpd-stop
+ httpd-start
+ list-packages
+)
+
+;; ----- smex-data -----
+(
+ (toggle-word-wrap . 4)
+ (visual-line-mode . 9)
+ (undo . 8)
+ (twit . 2)
+ (elcord-mode . 35)
+ (delete-file . 1)
+ (emms-pause . 5)
+ (emms-playlist-clear . 2)
+ (list-packages . 4)
+ (magit . 1)
+ (rename-file . 1)
+ (company-web-html . 4)
+ (js2-mode . 1)
+ (company-css . 1)
+ (rainbow-delimiters-mode . 4)
+ (impatient-mode . 1)
+ (httpd-start . 1)
+ (httpd-stop . 1)
+ (package-list-packages . 1)
+)

@@ -1,0 +1,46 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "jollyjester/")
+ ("/" . "home/")
+ ("/home/jollyjester/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/jollyjester/"
+ "/"
+ "/home/jollyjester/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "org.org"
+ "Baltagul.org"
+ "index.html"
+ "test.js"
+ "Floare_Albastra.org"
+ "llumi_straight_shota_fanfiction.org"
+ "test.org"
+ "init.el"
+ "config.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/jollyjester/" (23436 8484 798155 877000) "Baltagul.org" "Templates/" ".gitconfig" ".yarn/" "PixelCanvasBot-1.0/" "Downloads/" "SMLoadr-linux-x64" ".gnupg/" ".cache/" ".lyrics/" "PixelCanvasBot-1.0.zip" ".local/" "Baltagul.org~" "Videos/" ".fehbg" ".Xdefaults" ".gtkrc-2.0" ".emacs.d/" "index.html~" ".viminfo" "js.js" "LOL.txt" "downloadLinks.txt" "Floare_Albastra.org" ".Xauthority" ".electron/" ".ncmpcpp/" "dsfg4536565.jpg" ".twittering-mode-user-info.gz" ".bashrc" "WEW/" "SMLoadr-linux-x64_v1.9.4.zip" ".yarnrc" "i3wm/" "SMLoadrConfig.json" "./" "Pictures/" ".esd_auth" ".icons/" ".node-gyp/" "index.html" "SMLoadr.log" ".vim/" ".bash_profile" ".thumbnails/" ".config/" ".bash_logout" ".npm/" "Documents/" ".profile" ".xprofile" ".thunderbird/" "Public/" ".purple/" ".pki/" "Desktop/" ".mozilla/" ".mpd/" ".xinitrc" "DOWNLOADS/" ".bash_history" "../" "downloadedSuccessfully.txt" "Music/" "org.org" ".mtpaint")
+
+ ("/home/jollyjester/.emacs.d/" (23433 28800 469163 528000) "smex-items" "ido.last" "config.org~" "emms/" "init.el" "auto-save-list/" "elpa/" "init.el~" "bookmarks" "./" "config.el" "ido.last~" ".git/" "../" "config.org")
+
+ ("/home/jollyjester/.emacs.d/elpa/" (23433 23917 389134 878000) "beacon-20180706.1725/" "smex-20151212.2209/" "diminish-20170419.1736/" "git-commit-20180802.2018/" "popup-kill-ring-20131020.1854/" "bind-key-20180513.430/" "js2-refactor-20180502.1042/" "popup-20160709.1429/" "emms-20180827.831/" "yasnippet-20180621.50/" "company-web-20180402.1155/" "dash-20180726.1213/" "indium-20180821.853/" "multiple-cursors-20180615.1218/" "magit-20180830.1006/" "ido-vertical-mode-20180618.2101/" "elcord-20180411.1907/" "ivy-20180822.1824/" "js2-mode-20180724.801/" "rainbow-mode-1.0.1/" "pos-tip-20150318.1513/" "powerline-20180322.248/" "async-20180527.1730/" "linum-relative-20180124.1047/" "which-key-20180621.1938/" "org-bullets-20180208.2343/" "./" "golden-ratio-20150819.1120/" "magit-popup-20180726.2037/" "spacemacs-theme-20180817.1304/" "twittering-mode-20180818.1451/" "rainbow-delimiters-20170929.1132/" "s-20180406.808/" "gnupg/" "swiper-20180813.1625/" "with-editor-20180726.2044/" "web-completion-data-20160318.848/" "rainbow-mode-1.0.1.signed" "use-package-20180715.1801/" "company-20180802.1207/" "../" "ghub-20180821.1430/" "spaceline-20180628.746/" "archives/")
+
+ ("/home/jollyjester/.emacs.d/elpa/indium-20180821.853/" (23433 23695 339133 576000) "indium-chrome.el" "indium-autoloads.el" "indium-seq-fix.elc" "indium-debugger-locals.elc" "indium-faces.el" "indium-interaction.elc" "indium-nodejs.el" "indium-repl.el" "indium-breakpoint.el" "indium-client.el" "indium-debugger-litable.el" "indium-structs.el" "indium.el" "indium-breakpoint.elc" "indium-faces.elc" "indium-debugger.el" "indium-nodejs.elc" "indium-inspector.elc" "./" "indium-scratch.elc" "Indium.info" "indium-inspector.el" "indium-structs.elc" "indium-client.elc" "indium-debugger.elc" "indium.elc" "dir" "indium-pkg.el" "indium-render.el" "indium-interaction.el" "indium-scratch.el" "indium-list-sources.elc" "indium-debugger-litable.elc" "indium-debugger-locals.el" "indium-render.elc" "indium-list-sources.el" "../" "indium-seq-fix.el" "indium-chrome.elc" "indium-repl.elc")
+
+ ("/home/" (23428 65382 765134 588000) "jollyjester/" "./" "../")
+
+ ("/home/jollyjester/Music/" (23432 19204 478364 623000) "Fuego - Cele mai frumoase melodii de dragoste [Mpgun.com].mp4" "./" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
