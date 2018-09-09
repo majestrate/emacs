@@ -4,7 +4,7 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-refile-last-stored"
  (filename . "~/.emacs.d/config.org")
- (front-context-string . "** company\n #+BE")
- (rear-context-string . "re t)\n#+END_SRC\n")
- (position . 1107))
+ (front-context-string . "** web mode\n*** ")
+ (rear-context-string . "nfig)\n#+END_SRC\n")
+ (position . 2033))
 )

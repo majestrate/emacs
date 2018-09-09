@@ -19,8 +19,8 @@
 
 (setq initial-buffer-choice t)
 
-(line-number-mode 1)
-(column-number-mode 1)
+(setq line-number-mode t)
+(setq column-number-mode t)
 
 (use-package yasnippet
   :ensure t
@@ -33,17 +33,73 @@
   :ensure t)
 
 (use-package company
-  :ensure t
-  :config
-  (setq company-idle-delay 0)
-  (setq company-minimum-prefix-length 3))
+	:ensure t
+	:config
+	(setq company-idle-delay 0)
+	(setq company-minimum-prefix-length 3)
+	:init
+	(add-hook 'after-init-hook 'global-company-mode))
+
 
 (with-eval-after-load 'company
-  (define-key company-active-map (kbd "M-n") nil)
-  (define-key company-active-map (kbd "M-p") nil)
-  (define-key company-active-map (kbd "C-n") #'company-select-next)
-  (define-key company-active-map (kbd "C-p") #'company-select-previous)
-  (define-key company-active-map (kbd "SPC") #'company-abort))
+	(define-key company-active-map (kbd "M-n") nil)
+	(define-key company-active-map (kbd "M-p") nil)
+	(define-key company-active-map (kbd "C-n") #'company-select-next)
+	(define-key company-active-map (kbd "C-p") #'company-select-previous)
+	(define-key company-active-map (kbd "SPC") #'company-abort))
+
+(use-package company-web
+  :ensure t
+  :config)
+
+(defun my-new-web-mode-hook ()
+	(set (make-local-variable 'company-backends) '(company-css company-web-html company-yasnippet company-files)))
+(add-hook 'web-mode-hook #'my-new-web-mode-hook)
+
+(use-package emmet-mode
+  :ensure t
+  :config)
+
+(use-package web-mode
+  :ensure t
+  :config
+  (add-to-list 'auto-mode-alist '("\\.ts\\'" . web-mode))
+  (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+  (add-to-list 'auto-mode-alist '("\\.css?\\'" . web-mode))
+  (add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode)))
+
+(defun my-web-mode-hook ()
+  "Hooks for Web mode."
+  (setq web-mode-markup-indent-offset 2)
+  (setq web-mode-code-indent-offset 2)
+  (setq web-mode-css-indent-offset 2)
+)
+(add-hook 'web-mode-hook  'my-web-mode-hook)    
+(setq tab-width 2)
+
+(setq web-mode-enable-current-column-highlight t)
+(setq web-mode-enable-current-element-highlight t)
+
+(add-hook 'web-mode-hook  'emmet-mode) 
+(add-hook 'web-mode-before-auto-complete-hooks
+    '(lambda ()
+     (let ((web-mode-cur-language
+	    (web-mode-language-at-pos)))
+	       (if (string= web-mode-cur-language "php")
+	   (yas-activate-extra-mode 'php-mode)
+	 (yas-deactivate-extra-mode 'php-mode))
+	       (if (string= web-mode-cur-language "css")
+	   (setq emmet-use-css-transform t)
+	 (setq emmet-use-css-transform nil)))))
+
+(use-package projectile
+  :ensure t)
+
+(use-package clojure-mode
+  :ensure t)
+
+(use-package cider
+  :ensure t)
 
 (use-package which-key
   :ensure t
@@ -171,10 +227,10 @@
   :ensure t)
 
 (use-package linum-relative
-  :ensure t
-  :config
-    (setq linum-relative-current-symbol "")
-    (add-hook 'prog-mode-hook 'linum-relative-mode))
+	:ensure t
+	:config
+		(setq linum-relative-current-symbol "")
+		(add-hook 'prog-mode-hook 'linum-relative-mode))
 
 (use-package elcord
   :ensure t)
