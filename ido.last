@@ -2,16 +2,21 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/user/.emacs.d/elpa/" . "q4/")
+ ("/home/user/.emacs.d/" . "elpa/")
+ ("/home/user/" . "Site/")
  ("/home/jollyjester/clojure-noob/src/" . "clojure_noob/")
  ("/home/jollyjester/clojure-noob/" . "src/")
  ("/home/jollyjester/Documents/" . "webshit/")
- ("/home/" . "jollyjester/")
+ ("/home/" . "user/")
  ("/" . "home/")
  ("/home/jollyjester/" . "clojure-noob/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/user/Site/"
+ "/home/user/"
  "/home/jollyjester/clojure-noob/src/clojure_noob/"
  "/home/jollyjester/clojure-noob/"
  "/home/jollyjester/Documents/webshit/"
@@ -22,20 +27,32 @@
 
 ;; ----- ido-work-file-list -----
 (
- "core.clj"
- "project.clj"
+ "js.js"
+ "4.html"
+ "1.html"
+ "2.html"
+ "3.html"
+ "style.css"
  "index.html"
- "org.org"
- "Baltagul.org"
- "test.js"
- "Floare_Albastra.org"
- "llumi_straight_shota_fanfiction.org"
- "test.org"
- "init.el"
+ "calcul.org"
+ "engleza.org"
+ "core.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/user/Site/" (23472 56168 115038 305000) "style.css~" "style.css" "../" "1.html" "3.html" "2.html" "4.html~" "2.html~" "1.html~" "index.html~" "./" "4.html" "index.html" "3.html~" "000.txt")
+
+ ("/home/user/" (23472 55117 555032 141000) ".zprofile" "SMLoadr-linux-x64" ".bash_logout" ".mtpaint" "SMLoadrConfig.json" ".zshrc" ".cache/" ".oh-my-zsh/" ".mozilla/" ".mpd/" ".viminfo" ".emacs.d/" "engleza.org~" "../" "Site/" ".config/" ".xinitrc" ".pki/" ".thunderbird/" ".zdirs" ".profile" ".electrum/" ".wget-hsts" "gpg-stuff/" ".gtkrc-2.0" ".irssi/" "Downloads/" "Documents/" ".zcompdump-pc-5.6.2" ".zcompdump" ".Xauthority" ".thumbnails/" "i3wm/" ".gnupg/" ".esd_auth" "Templates/" "Music/" ".fehbg" ".bash_profile" ".projectM/" "my-gpg-keys.tar.gz" ".zsh_history" "Desktop/" "Public/" "Videos/" ".purple/" "downloadedSuccessfully.txt" ".Xdefaults" ".histfile" ".local/" "DOWNLOADS/" "./" ".bashrc" "Pictures/" "SMLoadr.log" ".xprofile" ".icons/" ".bash_history" "downloadLinks.txt")
+
+ ("/home/user/.emacs.d/" (23472 55041 445031 695000) "init.el~" "bookmarks" "ido.last~" ".git/" "snippets/" "config.el" "config.org~" "smex-items" "config.org" "ido.last" "../" "auto-save-list/" ".mc-lists.el" "init.el" "./" "elpa/" "emms/")
+
+ ("/home/" (23463 22971 439397 177000) "../" "user/" "./")
+
+ ("/home/user/.emacs.d/elpa/q4/" (23467 47994 24419 26000) "../" "q4-transmission.el" "q4.el" "./")
+
+ ("/home/user/.emacs.d/elpa/" (23467 47980 904419 98000) "web-completion-data-20160318.848/" "s-20180406.808/" "queue-0.2.signed" "magit-popup-20180726.2037/" "avy-20180814.2121/" "projectile-20180824.2239/" "queue-0.2/" "flycheck-20180823.826/" "../" "swiper-20180813.1625/" "org-bullets-20180208.2343/" "async-20180527.1730/" "bind-key-20180513.430/" "rainbow-mode-1.0.1.signed" "company-web-20180402.1155/" "spaceline-20180628.746/" "diminish-20170419.1736/" "simple-httpd-20180528.1603/" "popup-20160709.1429/" "rainbow-delimiters-20170929.1132/" "beacon-20180706.1725/" "gnupg/" "clojure-mode-20180827.1827/" "htmlize-20180412.1944/" "git-commit-20180802.2018/" "elcord-20180411.1907/" "ivy-20180822.1824/" "multiple-cursors-20180615.1218/" "sesman-20180903.1826/" "archives/" "emmet-mode-20180613.341/" "popup-kill-ring-20131020.1854/" "epl-20180205.2049/" "web-mode-20180813.1350/" "spinner-1.7.3.signed" "emms-20180827.831/" "q4/" "spacemacs-theme-20180817.1304/" "cider-20180903.2111/" "pkg-info-20150517.1143/" "company-20180802.1207/" "yasnippet-snippets-20180825.1712/" "zzz-to-char-20180101.619/" "pos-tip-20150318.1513/" "use-package-20180715.1801/" "smex-20151212.2209/" "powerline-20180322.248/" "twittering-mode-20180818.1451/" "with-editor-20180726.2044/" "ghub-20180821.1430/" "expand-region-20180817.1134/" "linum-relative-20180124.1047/" "magit-20180830.1006/" "which-key-20180621.1938/" "rainbow-mode-1.0.1/" "dash-20180726.1213/" "ido-vertical-mode-20180618.2101/" "./" "yasnippet-20180621.50/" "spinner-1.7.3/")
+
  ("/home/jollyjester/clojure-noob/src/clojure_noob/" (23445 4099 867913 604000) "core.clj~" "./" "core.clj" "../")
 
  ("/home/jollyjester/" (23445 3546 47910 355000) "Baltagul.org" "Templates/" ".gitconfig" ".yarn/" "Downloads/" "SMLoadr-linux-x64" ".clojure/" ".gnupg/" "org.org~" ".cache/" ".lyrics/" ".local/" "Baltagul.org~" "Videos/" ".fehbg" ".Xdefaults" ".gtkrc-2.0" ".emacs.d/" "index.html~" ".viminfo" "LOL.txt" "downloadLinks.txt" "Floare_Albastra.org" "clojure-noob/" ".Xauthority" ".electron/" ".vscode/" ".ncmpcpp/" ".twittering-mode-user-info.gz" ".bashrc" "WEW/" ".yarnrc" "SMLoadrConfig.json" ".lein/" "Pictures/" ".esd_auth" ".icons/" ".node-gyp/" "SMLoadr.log" ".vim/" ".bash_profile" ".m2/" ".thumbnails/" ".config/" ".bash_logout" ".npm/" "Documents/" ".profile" ".xprofile" ".thunderbird/" "Public/" ".purple/" ".pki/" "Desktop/" ".mozilla/" ".mpd/" ".xinitrc" "DOWNLOADS/" ".bash_history" "downloadedSuccessfully.txt" "Music/" "org.org" ".mtpaint" "../" "./")
@@ -53,8 +70,6 @@
  ("/home/jollyjester/.emacs.d/elpa/" (23433 23917 389134 878000) "beacon-20180706.1725/" "smex-20151212.2209/" "diminish-20170419.1736/" "git-commit-20180802.2018/" "popup-kill-ring-20131020.1854/" "bind-key-20180513.430/" "js2-refactor-20180502.1042/" "popup-20160709.1429/" "emms-20180827.831/" "yasnippet-20180621.50/" "company-web-20180402.1155/" "dash-20180726.1213/" "indium-20180821.853/" "multiple-cursors-20180615.1218/" "magit-20180830.1006/" "ido-vertical-mode-20180618.2101/" "elcord-20180411.1907/" "ivy-20180822.1824/" "js2-mode-20180724.801/" "rainbow-mode-1.0.1/" "pos-tip-20150318.1513/" "powerline-20180322.248/" "async-20180527.1730/" "linum-relative-20180124.1047/" "which-key-20180621.1938/" "org-bullets-20180208.2343/" "./" "golden-ratio-20150819.1120/" "magit-popup-20180726.2037/" "spacemacs-theme-20180817.1304/" "twittering-mode-20180818.1451/" "rainbow-delimiters-20170929.1132/" "s-20180406.808/" "gnupg/" "swiper-20180813.1625/" "with-editor-20180726.2044/" "web-completion-data-20160318.848/" "rainbow-mode-1.0.1.signed" "use-package-20180715.1801/" "company-20180802.1207/" "../" "ghub-20180821.1430/" "spaceline-20180628.746/" "archives/")
 
  ("/home/jollyjester/.emacs.d/elpa/indium-20180821.853/" (23433 23695 339133 576000) "indium-chrome.el" "indium-autoloads.el" "indium-seq-fix.elc" "indium-debugger-locals.elc" "indium-faces.el" "indium-interaction.elc" "indium-nodejs.el" "indium-repl.el" "indium-breakpoint.el" "indium-client.el" "indium-debugger-litable.el" "indium-structs.el" "indium.el" "indium-breakpoint.elc" "indium-faces.elc" "indium-debugger.el" "indium-nodejs.elc" "indium-inspector.elc" "./" "indium-scratch.elc" "Indium.info" "indium-inspector.el" "indium-structs.elc" "indium-client.elc" "indium-debugger.elc" "indium.elc" "dir" "indium-pkg.el" "indium-render.el" "indium-interaction.el" "indium-scratch.el" "indium-list-sources.elc" "indium-debugger-litable.elc" "indium-debugger-locals.el" "indium-render.elc" "indium-list-sources.el" "../" "indium-seq-fix.el" "indium-chrome.elc" "indium-repl.elc")
-
- ("/home/" (23428 65382 765134 588000) "jollyjester/" "./" "../")
 
  ("/home/jollyjester/Music/" (23432 19204 478364 623000) "Fuego - Cele mai frumoase melodii de dragoste [Mpgun.com].mp4" "./" "../")
 )

@@ -30,7 +30,7 @@
     ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(package-selected-packages
    (quote
-    (cider clojure-mode projectile emmet-mode yasnippet-snippets flycheck zzz-to-char expand-region avy skewer-mode web-mode company-web indium magit golden-ratio emms elcord linum-relative twittering-mode swiper popup-kill-ring diminish spaceline company rainbow-mode smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package))))
+    (impatient-mode cider clojure-mode projectile emmet-mode yasnippet-snippets flycheck zzz-to-char expand-region avy skewer-mode web-mode company-web indium magit golden-ratio emms elcord linum-relative twittering-mode swiper popup-kill-ring diminish spaceline company rainbow-mode smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

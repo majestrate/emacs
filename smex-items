@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
+ impatient-mode
+ httpd-start
+ httpd-stop
+ undo
+ package-list-packages
+ load-file
  cider-quit
- cider-jack-in
- cider
- move-end-of-line
- windmove-down
- windmove-right
- elcord-mode
 )
 
 ;; ----- smex-data -----
 (
  (toggle-word-wrap . 4)
  (visual-line-mode . 9)
- (undo . 8)
+ (undo . 10)
  (twit . 2)
  (elcord-mode . 38)
  (delete-file . 1)
@@ -27,10 +27,10 @@
  (js2-mode . 1)
  (company-css . 1)
  (rainbow-delimiters-mode . 4)
- (impatient-mode . 1)
- (httpd-start . 1)
- (httpd-stop . 1)
- (package-list-packages . 1)
+ (impatient-mode . 19)
+ (httpd-start . 5)
+ (httpd-stop . 5)
+ (package-list-packages . 2)
  (company-mode . 1)
  (edebug-help . 1)
  (edebug-mode . 1)
@@ -44,4 +44,6 @@
  (windmove-down . 1)
  (move-end-of-line . 1)
  (cider-quit . 7)
+ (load-file . 2)
+ (q4-mode . 4)
 )
