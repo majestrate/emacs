@@ -41,9 +41,9 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/user/" (23472 63365 15080 529000) ".zprofile" "SMLoadr-linux-x64" ".bash_logout" ".mtpaint" "SMLoadrConfig.json" ".zshrc" ".cache/" ".oh-my-zsh/" ".mozilla/" ".mpd/" ".viminfo" ".emacs.d/" "../" "Site/" ".config/" ".xinitrc" ".pki/" ".thunderbird/" ".zdirs" ".profile" ".electrum/" ".wget-hsts" "gpg-stuff/" ".gtkrc-2.0" ".irssi/" "Downloads/" "Documents/" ".zcompdump-pc-5.6.2" ".zcompdump" ".Xauthority" ".thumbnails/" "i3wm/" ".gnupg/" ".esd_auth" "Templates/" "Music/" ".fehbg" ".bash_profile" ".projectM/" "my-gpg-keys.tar.gz" ".zsh_history" "Desktop/" "Public/" "Videos/" ".purple/" "downloadedSuccessfully.txt" ".Xdefaults" ".histfile" ".local/" "DOWNLOADS/" "./" ".bashrc" "Pictures/" "SMLoadr.log" ".xprofile" ".icons/" ".gitconfig" "downloadLinks.txt")
-
  ("/home/user/Site/" (23472 56168 115038 305000) "style.css~" "style.css" "../" "1.html" "3.html" "2.html" "4.html~" "2.html~" "1.html~" "index.html~" "./" "4.html" "index.html" "3.html~" "000.txt")
+
+ ("/home/user/" (23472 55117 555032 141000) ".zprofile" "SMLoadr-linux-x64" ".bash_logout" ".mtpaint" "SMLoadrConfig.json" ".zshrc" ".cache/" ".oh-my-zsh/" ".mozilla/" ".mpd/" ".viminfo" ".emacs.d/" "engleza.org~" "../" "Site/" ".config/" ".xinitrc" ".pki/" ".thunderbird/" ".zdirs" ".profile" ".electrum/" ".wget-hsts" "gpg-stuff/" ".gtkrc-2.0" ".irssi/" "Downloads/" "Documents/" ".zcompdump-pc-5.6.2" ".zcompdump" ".Xauthority" ".thumbnails/" "i3wm/" ".gnupg/" ".esd_auth" "Templates/" "Music/" ".fehbg" ".bash_profile" ".projectM/" "my-gpg-keys.tar.gz" ".zsh_history" "Desktop/" "Public/" "Videos/" ".purple/" "downloadedSuccessfully.txt" ".Xdefaults" ".histfile" ".local/" "DOWNLOADS/" "./" ".bashrc" "Pictures/" "SMLoadr.log" ".xprofile" ".icons/" ".bash_history" "downloadLinks.txt")
 
  ("/home/user/.emacs.d/" (23472 55041 445031 695000) "init.el~" "bookmarks" "ido.last~" ".git/" "snippets/" "config.el" "config.org~" "smex-items" "config.org" "ido.last" "../" "auto-save-list/" ".mc-lists.el" "init.el" "./" "elpa/" "emms/")
 
