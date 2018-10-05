@@ -60,6 +60,14 @@
   :ensure t
   :config)
 
+(use-package company-tern
+  :ensure t
+  :config
+  (add-to-list 'company-backends 'company-tern)
+  (add-hook 'js2-mode-hook (lambda ()
+			   (tern-mode)
+			   (company-mode))))
+
 (use-package web-mode
   :ensure t
   :config
@@ -94,6 +102,19 @@
 
 (use-package impatient-mode
 	:ensure t)
+
+(use-package skewer-mode
+  :ensure t
+  :config
+  (add-hook 'js2-mode-hook 'skewer-mode)
+  (add-hook 'css-mode-hook 'skewer-css-mode)
+  (add-hook 'html-mode-hook 'skewer-html-mode))
+
+(use-package js2-mode
+  :ensure t
+  :config
+  (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+  (add-hook 'js2-mode-hook #'js2-imenu-extras-mode))
 
 (use-package projectile
   :ensure t)

@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/user/.config/" . "polybar/")
  ("/home/user/.emacs.d/elpa/" . "q4/")
  ("/home/user/.emacs.d/" . "elpa/")
  ("/home/user/" . "Site/")
@@ -15,8 +16,11 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/user/Site/"
  "/home/user/"
+ "/home/user/Site/"
+ "/home/user/.emacs.d/"
+ "/home/user/DiscordBot/"
+ "/home/user/.config/polybar/"
  "/home/jollyjester/clojure-noob/src/clojure_noob/"
  "/home/jollyjester/clojure-noob/"
  "/home/jollyjester/Documents/webshit/"
@@ -27,25 +31,31 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "okretard.org"
  "js.js"
  "4.html"
+ "okok.org"
+ "init.el"
+ "okok"
+ "reply.py"
+ "config"
  "1.html"
  "2.html"
- "3.html"
- "style.css"
- "index.html"
- "calcul.org"
- "engleza.org"
- "core.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/user/Site/" (23472 56168 115038 305000) "style.css~" "style.css" "../" "1.html" "3.html" "2.html" "4.html~" "2.html~" "1.html~" "index.html~" "./" "4.html" "index.html" "3.html~" "000.txt")
+ ("/home/user/" (23476 63357 94863 501000) ".zprofile" "SMLoadr-linux-x64" ".bash_logout" ".mtpaint" "SMLoadrConfig.json" ".zshrc" ".cache/" ".oh-my-zsh/" ".mozilla/" ".mpd/" ".viminfo" ".emacs.d/" "../" "Site/" "okok.org" ".config/" ".xinitrc" ".pki/" ".thunderbird/" ".zdirs" ".profile" ".electrum/" "okok.org~" ".wget-hsts" "gpg-stuff/" ".gtkrc-2.0" ".irssi/" ".MumbleSocket" "Downloads/" "Documents/" ".zcompdump-pc-5.6.2" ".zcompdump" ".Xauthority" ".thumbnails/" "i3wm/" ".gnupg/" ".esd_auth" "Templates/" "Music/" ".fehbg" ".bash_profile" ".projectM/" "my-gpg-keys.tar.gz" ".zsh_history" "Desktop/" "Public/" "Videos/" ".purple/" "downloadedSuccessfully.txt" ".Xdefaults" ".histfile" ".local/" ".MumbleOverlayPipe" "DOWNLOADS/" "./" ".bashrc" "Pictures/" "SMLoadr.log" ".xprofile" ".icons/" ".gitconfig" "downloadLinks.txt")
 
- ("/home/user/" (23472 55117 555032 141000) ".zprofile" "SMLoadr-linux-x64" ".bash_logout" ".mtpaint" "SMLoadrConfig.json" ".zshrc" ".cache/" ".oh-my-zsh/" ".mozilla/" ".mpd/" ".viminfo" ".emacs.d/" "engleza.org~" "../" "Site/" ".config/" ".xinitrc" ".pki/" ".thunderbird/" ".zdirs" ".profile" ".electrum/" ".wget-hsts" "gpg-stuff/" ".gtkrc-2.0" ".irssi/" "Downloads/" "Documents/" ".zcompdump-pc-5.6.2" ".zcompdump" ".Xauthority" ".thumbnails/" "i3wm/" ".gnupg/" ".esd_auth" "Templates/" "Music/" ".fehbg" ".bash_profile" ".projectM/" "my-gpg-keys.tar.gz" ".zsh_history" "Desktop/" "Public/" "Videos/" ".purple/" "downloadedSuccessfully.txt" ".Xdefaults" ".histfile" ".local/" "DOWNLOADS/" "./" ".bashrc" "Pictures/" "SMLoadr.log" ".xprofile" ".icons/" ".bash_history" "downloadLinks.txt")
+ ("/home/user/Site/" (23476 57069 94826 609000) "style.css" "../" "1.html" "3.html" "2.html" "4.html~" "js.js" "./" "js.js~" "4.html" "index.html" "000.txt")
 
- ("/home/user/.emacs.d/" (23472 55041 445031 695000) "init.el~" "bookmarks" "ido.last~" ".git/" "snippets/" "config.el" "config.org~" "smex-items" "config.org" "ido.last" "../" "auto-save-list/" ".mc-lists.el" "init.el" "./" "elpa/" "emms/")
+ ("/home/user/.emacs.d/" (23476 57526 74829 290000) "bookmarks" "ido.last~" ".git/" "snippets/" "config.el" "smex-items" "config.org" "ido.last" "../" "auto-save-list/" ".mc-lists.el" "init.el" "./" "elpa/")
+
+ ("/home/user/DiscordBot/" (23474 16978 694970 556000) "reply.py~" "../" "./" "reply.py")
+
+ ("/home/user/.config/polybar/" (23473 3583 415114 290000) "../" "config" "launch.sh" "config~" "./")
+
+ ("/home/user/.config/" (23473 1120 525099 841000) "gconf/" "../" "user-dirs.dirs" "hexchat/" "pcmanfm/" "galculator/" "mimeapps.list" "discord/" "chromium/" "libfm/" "leafpad/" "transmission/" "xfce4/" "libreoffice/" "ranger/" "Trolltech.conf" "i3/" "user-dirs.locale" "pulse/" "bleachbit/" "mpv/" "yay/" "projectM/" "gtk-2.0/" "polybar/" "Mumble/" "./" "qt5ct/" "volumeicon/" "cmus/" "dconf/" "gtk-3.0/" "neofetch/" "pavucontrol.ini")
 
  ("/home/" (23463 22971 439397 177000) "../" "user/" "./")
 

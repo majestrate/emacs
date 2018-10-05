@@ -1,37 +1,37 @@
 
 ;; ----- smex-history -----
 (
- impatient-mode
- httpd-start
- httpd-stop
- undo
- package-list-packages
- load-file
- cider-quit
+ elcord-mode
+ erc
+ pong
+ tetris
+ org-table-eval-formula
+ visual-line-mode
+ js2-mode
 )
 
 ;; ----- smex-data -----
 (
  (toggle-word-wrap . 4)
- (visual-line-mode . 9)
- (undo . 10)
+ (visual-line-mode . 11)
+ (undo . 17)
  (twit . 2)
- (elcord-mode . 38)
+ (elcord-mode . 41)
  (delete-file . 1)
  (emms-pause . 5)
  (emms-playlist-clear . 6)
- (list-packages . 4)
+ (list-packages . 5)
  (magit . 1)
- (rename-file . 1)
+ (rename-file . 2)
  (company-web-html . 8)
- (js2-mode . 1)
+ (js2-mode . 5)
  (company-css . 1)
- (rainbow-delimiters-mode . 4)
- (impatient-mode . 19)
+ (rainbow-delimiters-mode . 6)
+ (impatient-mode . 20)
  (httpd-start . 5)
  (httpd-stop . 5)
  (package-list-packages . 2)
- (company-mode . 1)
+ (company-mode . 2)
  (edebug-help . 1)
  (edebug-mode . 1)
  (edebug-eval-mode . 1)
@@ -46,4 +46,13 @@
  (cider-quit . 7)
  (load-file . 2)
  (q4-mode . 4)
+ (dired . 1)
+ (customize-themes . 1)
+ (package-autoremove . 1)
+ (skewer-mode . 4)
+ (run-skewer . 2)
+ (org-table-eval-formula . 1)
+ (tetris . 1)
+ (pong . 1)
+ (erc . 1)
 )

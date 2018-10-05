@@ -89,6 +89,16 @@
      :ensure t
      :config)
  #+END_SRC
+*** company hook to js2 mode
+#+BEGIN_SRC emacs-lisp
+  (use-package company-tern
+    :ensure t
+    :config
+    (add-to-list 'company-backends 'company-tern)
+    (add-hook 'js2-mode-hook (lambda ()
+			     (tern-mode)
+			     (company-mode))))
+#+END_SRC
 *** web mode
 **** load when opening web related files
   #+BEGIN_SRC emacs-lisp
@@ -134,6 +144,23 @@
 #+BEGIN_SRC emacs-lisp
   (use-package impatient-mode
 	  :ensure t)
+#+END_SRC
+*** skewer mode
+#+BEGIN_SRC emacs-lisp
+  (use-package skewer-mode
+    :ensure t
+    :config
+    (add-hook 'js2-mode-hook 'skewer-mode)
+    (add-hook 'css-mode-hook 'skewer-css-mode)
+    (add-hook 'html-mode-hook 'skewer-html-mode))
+#+END_SRC
+*** js2 mode
+#+BEGIN_SRC emacs-lisp
+  (use-package js2-mode
+    :ensure t
+    :config
+    (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+    (add-hook 'js2-mode-hook #'js2-imenu-extras-mode))
 #+END_SRC
 ** clojure programming
 *** projectile
@@ -359,3 +386,4 @@
 		(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 		(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this))
 #+END_SRC
+
