@@ -35,7 +35,7 @@
  '(ibuffer-marked-face (quote diredp-flag-mark))
  '(package-selected-packages
    (quote
-    (company-tern impatient-mode cider clojure-mode projectile emmet-mode yasnippet-snippets flycheck zzz-to-char expand-region avy skewer-mode web-mode company-web indium magit golden-ratio emms elcord linum-relative twittering-mode swiper popup-kill-ring diminish spaceline company rainbow-mode smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package)))
+    (mark-multiple company-tern impatient-mode cider clojure-mode projectile emmet-mode yasnippet-snippets flycheck zzz-to-char expand-region avy skewer-mode web-mode company-web indium magit golden-ratio emms elcord linum-relative twittering-mode swiper popup-kill-ring diminish spaceline company rainbow-mode smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package)))
  '(pdf-view-midnight-colors (quote ("#b2b2b2" . "#292b2e"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
