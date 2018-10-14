@@ -73,6 +73,7 @@ Modular in-buffer completion framework for Emacs
   (use-package cider
     :ensure t)
 #+END_SRC
+** python programming
 * which-key
 Emacs package that displays available keybindings in a popup
 #+BEGIN_SRC emacs-lisp
