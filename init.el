@@ -43,3 +43,27 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
+;; company stuff
+
+(use-package company)
+
+;; uncomment me if the above doesn't work
+
+;; (require 'company)
+;; (add-hook 'after-init-hook 'global-company-mode)
+;; (setq company-begin-commands '(self-insert-command)) 
+
+
+;; python stuff
+
+(use-package company-jedi)
+
+;; this applies python
+
+(defun my/python-mode-hook ()
+  (add-to-list 'company-backends 'company-jedi))
+
+(add-hook 'python-mode-hook 'my/python-mode-hook)
+
